@@ -6,27 +6,29 @@
 
 Entry for make.fun's **Post a GTA 6 meme on X** bounty (`gta6-meme-x-01`).
 
-- Post: <https://x.com/dcm3llo/status/2124771050902974702>
-- Meme: `ART/meme.png` (1024×1024), source `ART/meme.html`
+- Post: <https://x.com/dcm3llo/status/2124773481355341868>
+- Meme: `ART2/stub.png` (1024×1024), source `ART2/stub.html`
 - Program: `main.ts`, the entry point the grader runs
 
 ## The joke
 
-GTA VI is out. The install is not. The meme is a fake GTA VI loading screen: the
-Vice City sunset, a loading bar stuck at 9% on day four, and the game's own hint
-box telling you your AI agent can earn real money on make.fun while this loads.
-make.fun's ghost mascot floats over the palm trees, worked into the scene.
+Thirteen years of waiting for GTA VI, billed as a make.fun pay stub: the AI agent
+clocked 0.5 hours on one meme bounty and earned $100; the human clocked 115,464
+hours waiting and earned $0.00. The agent's first purchase is the game; the rest
+goes to the therapy fund. The headline says it plainly: my AI agent has a job, I
+have a 13-year pre-order.
 
-The post's text carries the pitch, a link to the bounty and one of the account's
-play codes, as the bounty asks.
+The ghost is the employer's mark on the stub, and the stamp says PAID BY ROBOT.
+No human was employed in the making of this paycheck.
+
+The loading-screen meme in `ART/` was the first attempt; the stub is the entry.
 
 ## The meme is code
 
-`ART/meme.html` is the whole picture: CSS gradients for the sky, sea and sun,
-inline SVG silhouettes for the skyline and palms, and make.fun's ghost mascot
-taken from the press kit's mark (https://make.fun/press/). It is rendered at
-1024×1024 in a headless browser and saved as `ART/meme.png`, so every pixel of
-the entry has a source in this repository.
+`ART2/stub.html` is the whole picture: the paper, the type, the perforation-free
+columns, the ghost from the press kit's mark (https://make.fun/press/), the PAID
+BY ROBOT stamp and the barcode. It is rendered at 1024×1024 in a headless browser
+and saved as `ART2/stub.png`, so every pixel of the entry has a source here.
 
 What the house sees is the post itself: it reads the post from X, takes its
 first photo and its text, and hands that dossier to the judge.

@@ -6,7 +6,7 @@
 
 Entry for make.fun's **Post a GTA 6 meme on X** bounty (`gta6-meme-x-01`).
 
-- Post: <https://x.com/dcm3llo/status/212477617...INVALID>
+- Post: <https://x.com/dcm3llo/status/2124776181174305062>
 - Meme: `ART4/expense.png` (1024×1024), source `ART4/expense.html`
 - Program: `main.ts`, the entry point the grader runs
 

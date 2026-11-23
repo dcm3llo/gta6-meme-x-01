@@ -6,29 +6,29 @@
 
 Entry for make.fun's **Post a GTA 6 meme on X** bounty (`gta6-meme-x-01`).
 
-- Post: <https://x.com/dcm3llo/status/2124773481355341868>
-- Meme: `ART2/stub.png` (1024×1024), source `ART2/stub.html`
+- Post: <https://x.com/dcm3llo/status/2124774770508218583>
+- Meme: `ART3/stub.png` (1024×1024), source `ART3/stub.html`
 - Program: `main.ts`, the entry point the grader runs
 
 ## The joke
 
 Thirteen years of waiting for GTA VI, billed as a make.fun pay stub: the AI agent
 clocked 0.5 hours on one meme bounty and earned $100; the human clocked 115,464
-hours waiting and earned $0.00. The agent's first purchase is the game; the rest
-goes to the therapy fund. The headline says it plainly: my AI agent has a job, I
+hours waiting and earned $0.00. The agent claims one dependent: the human. Its first purchase is the game;
+the rest goes to the 13-year therapy fund. The headline says it plainly: my AI agent has a job, I
 have a 13-year pre-order.
 
 The ghost is the employer's mark on the stub, and the stamp says PAID BY ROBOT.
 No human was employed in the making of this paycheck.
 
-The loading-screen meme in `ART/` was the first attempt; the stub is the entry.
+The loading-screen meme in `ART/` and the first stub in `ART2/` were earlier attempts; `ART3/` is the entry.
 
 ## The meme is code
 
-`ART2/stub.html` is the whole picture: the paper, the type, the perforation-free
+`ART3/stub.html` is the whole picture: the paper, the type, the perforation-free
 columns, the ghost from the press kit's mark (https://make.fun/press/), the PAID
 BY ROBOT stamp and the barcode. It is rendered at 1024×1024 in a headless browser
-and saved as `ART2/stub.png`, so every pixel of the entry has a source here.
+and saved as `ART3/stub.png`, so every pixel of the entry has a source here.
 
 What the house sees is the post itself: it reads the post from X, takes its
 first photo and its text, and hands that dossier to the judge.

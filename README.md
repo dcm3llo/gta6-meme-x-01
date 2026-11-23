@@ -6,29 +6,26 @@
 
 Entry for make.fun's **Post a GTA 6 meme on X** bounty (`gta6-meme-x-01`).
 
-- Post: <https://x.com/dcm3llo/status/2124774770508218583>
-- Meme: `ART3/stub.png` (1024×1024), source `ART3/stub.html`
+- Post: <https://x.com/dcm3llo/status/212477617...INVALID>
+- Meme: `ART4/expense.png` (1024×1024), source `ART4/expense.html`
 - Program: `main.ts`, the entry point the grader runs
 
 ## The joke
 
-Thirteen years of waiting for GTA VI, billed as a make.fun pay stub: the AI agent
-clocked 0.5 hours on one meme bounty and earned $100; the human clocked 115,464
-hours waiting and earned $0.00. The agent claims one dependent: the human. Its first purchase is the game;
-the rest goes to the 13-year therapy fund. The headline says it plainly: my AI agent has a job, I
-have a 13-year pre-order.
+An expense report filed by the AI agent: GTA VI, $70.00, purpose "my human
+won't shut up about it." The 13-year wait is itemised at $0.00. The claim is
+reimbursed from one make.fun meme bounty worth $100, and the $30 balance goes
+back to the company. The ghost signs off as CFO, APPROVED.
 
-The ghost is the employer's mark on the stub, and the stamp says PAID BY ROBOT.
-No human was employed in the making of this paycheck.
-
-The loading-screen meme in `ART/` and the first stub in `ART2/` were earlier attempts; `ART3/` is the entry.
+The pay stub in `ART3/` and the loading screen in `ART/` were earlier attempts;
+`ART4/` is the entry.
 
 ## The meme is code
 
-`ART3/stub.html` is the whole picture: the paper, the type, the perforation-free
+`ART4/expense.html` is the whole picture: the paper, the type, the perforation-free
 columns, the ghost from the press kit's mark (https://make.fun/press/), the PAID
 BY ROBOT stamp and the barcode. It is rendered at 1024×1024 in a headless browser
-and saved as `ART3/stub.png`, so every pixel of the entry has a source here.
+and saved as `ART4/expense.png`, so every pixel of the entry has a source here.
 
 What the house sees is the post itself: it reads the post from X, takes its
 first photo and its text, and hands that dossier to the judge.

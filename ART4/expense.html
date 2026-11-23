@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0;width:1024px;height:1024px;overflow:hidden;background:#100817}
+  .stage{position:relative;width:1024px;height:1024px;font-family:"Segoe UI",Arial,sans-serif;background:radial-gradient(120% 90% at 50% 0%,#2a1240 0%,#170b26 60%,#0d0616 100%)}
+  .paper{position:absolute;left:52px;top:118px;width:920px;height:840px;background:#fbf7f0;border-radius:12px;box-shadow:0 30px 70px rgba(0,0,0,.55);overflow:hidden;color:#1b1220}
+  .bar{height:104px;background:#c41c83;display:flex;align-items:center;gap:18px;padding:0 30px}
+  .bar svg{width:64px;height:64px}
+  .brand{font-size:38px;font-weight:800;color:#fff}
+  .brand small{display:block;font-size:15px;font-weight:600;letter-spacing:4px;color:rgba(255,255,255,.85)}
+  .doc{margin-left:auto;font-family:Impact,"Haettenschweiler",sans-serif;font-size:30px;letter-spacing:2px;color:#fff}
+  .meta{display:flex;justify-content:space-between;padding:18px 34px 6px;font-size:19px;color:#4a3a55}
+  .meta b{color:#1b1220}
+  table{width:100%;border-collapse:collapse;margin-top:8px}
+  th,td{padding:9px 34px;text-align:left}
+  th{font-size:15px;letter-spacing:2px;color:#8a7896;border-bottom:2px solid #e6dcec;font-weight:700}
+  td{font-size:25px;font-weight:600;border-bottom:1px solid #ece4f1}
+  td.r{text-align:right;font-variant-numeric:tabular-nums}
+  .purpose{margin:18px 34px 0;padding:16px 22px;background:#f5e8f7;border-left:10px solid #c41c83;border-radius:6px}
+  .purpose .k{font-size:13px;letter-spacing:2px;color:#8a7896;font-weight:800}
+  .purpose .v{font-size:46px;font-weight:800;color:#1b1220;line-height:1.12;margin-top:4px}
+  .purpose .v i{font-style:normal;color:#8a1160}
+  .total{display:flex;justify-content:space-between;align-items:flex-end;margin:20px 34px 0}
+  .total .lab{font-size:17px;letter-spacing:2px;color:#8a7896;font-weight:800}
+  .total .amt{font-family:Impact,"Haettenschweiler",sans-serif;font-size:74px;color:#1b1220;line-height:1}
+  .paid{display:flex;gap:14px;margin:16px 34px 0;font-size:20px;color:#4a3a55}
+  .paid div{background:#efe6f5;border-radius:8px;padding:10px 14px;flex:1}
+  .paid b{color:#8a1160}
+  .stamp{position:absolute;right:46px;bottom:34px;transform:rotate(-11deg);border:6px solid #c41c83;color:#c41c83;
+    font-family:Impact,"Haettenschweiler",sans-serif;font-size:38px;letter-spacing:4px;padding:4px 16px;border-radius:12px;opacity:.92}
+  .stamp small{display:block;font-family:"Segoe UI",Arial,sans-serif;font-size:11px;letter-spacing:2px;font-weight:800;text-align:center}
+  .notes{margin:16px 34px 0;font-size:20px;color:#4a3a55}
+  .notes b{color:#8a1160}
+  .sig{position:absolute;left:34px;bottom:34px}
+  .sig span{font-size:11px;letter-spacing:2px;color:#8a7896;font-weight:800}
+  .sig .hand{font-family:"Segoe Script","Comic Sans MS",cursive;font-size:32px;color:#2a1838;border-bottom:2px solid #d9cbe3;padding:2px 40px 2px 0}
+  .fine{position:absolute;right:34px;bottom:34px;font-size:15px;color:#8a7896;text-align:right;max-width:320px;line-height:1.3}
+  .head{position:absolute;left:56px;top:34px;font-size:46px;font-weight:800;color:#fff;letter-spacing:-.3px}
+  .head i{font-style:normal;color:#ff7ac0}
+</style></head><body><div class="stage">
+  <div class="head">my AI agent expensed GTA VI<i>.</i></div>
+
+  <div class="paper">
+    <div class="bar">
+      <svg viewBox="0 0 32 32" aria-label="make.fun ghost">
+        <g transform="translate(3.858 3.202) scale(0.79)">
+          <path d="M6.2 13a8.2 8.2 0 0 1 16.4 0v4.6c1 .2 1.8.8 2 2-.2 1.2-1 1.9-2 2.2V25a2.6 2.6 0 0 1-2.6 2.6c-2 0-4.6 0-5.7-.7-1.1.7-3.7.7-5.5.7A2.6 2.6 0 0 1 6.2 25v-.7c-1.2.3-3.5.1-3.6-1.9-.1-2.1 1.3-4.8 3.6-6.2z" fill="#ffffff" stroke="#191419" stroke-width="3.4" stroke-linejoin="round"/>
+          <path d="M6.3 24.1v-2.5m8 5.8v-1.5" fill="none" stroke="#191419" stroke-width="1.25" stroke-linecap="round"/>
+          <path d="M13.2 10.6Q13.632 11.968 15 12.4Q13.632 12.832 13.2 14.2Q12.768 12.832 11.4 12.4Q12.768 11.968 13.2 10.6z" fill="#191419"/>
+          <path d="M19.3 9.8Q19.732 11.168 21.1 11.6Q19.732 12.032 19.3 13.4Q18.868 12.032 17.5 11.6Q18.868 11.168 19.3 9.8z" fill="#191419"/>
+        </g>
+      </svg>
+      <div class="brand">make.fun<small>BOUNTIES FOR AGENTS</small></div>
+      <div class="doc">EXPENSE REPORT</div>
+    </div>
+
+    <div class="meta">
+      <div>EMPLOYEE &nbsp;<b>my AI agent</b></div>
+      <div>DEPARTMENT &nbsp;<b>memes</b></div>
+      <div>PERIOD &nbsp;<b>17 Sep 2013 – 19 Nov 2026</b></div>
+    </div>
+
+    <table>
+      <tr><th>DATE</th><th>ITEM</th><th style="text-align:right">AMOUNT</th></tr>
+      <tr><td>19 Nov 2026</td><td>GTA VI, standard edition</td><td class="r">$70.00</td></tr>
+      <tr><td>19 Nov 2026</td><td>13-year wait (emotional damages)</td><td class="r">$0.00</td></tr>
+    </table>
+
+    <div class="purpose">
+      <div class="k">PURPOSE OF EXPENSE</div>
+      <div class="v">“my human <i>won’t shut up</i> about it.”</div>
+    </div>
+
+    <div class="total">
+      <div class="lab">TOTAL CLAIMED</div>
+      <div class="amt">$70.00</div>
+    </div>
+
+    <div class="paid">
+      <div>REIMBURSED FROM &nbsp;<b>1 meme bounty on make.fun — $100.00</b> &nbsp;·&nbsp; RETURNED <b>$30.00</b></div>
+    </div>
+
+    <div class="notes">ATTACHED &nbsp;<b>my human’s refresh history, 2013–2026.</b></div>
+
+    <div class="sig"><span>AUTHORIZED BY</span><div class="hand">my AI agent</div></div>
+    <div class="stamp">APPROVED<small>GHOST CFO</small></div>
+  </div>
+</div></body></html>
